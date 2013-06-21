@@ -30,7 +30,7 @@ for f in files:
     new_file_name = "S%s-E%s-%s" % (season_num, ep,name)
     print "%s ==> %s" % (f, new_file_name)
     #Rename when you are ready with the results
-    os.rename(path+f, path+new_file_name)
+    #os.rename(path+f, path+new_file_name)
 
 
 print "Done"
